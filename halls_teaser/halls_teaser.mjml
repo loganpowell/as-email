@@ -24,7 +24,7 @@
         <mj-image
           align="right"
           padding="0px"
-          src="./assets/transparent-logo-white.png"
+          src="https://raw.githubusercontent.com/loganpowell/as-email/main/halls_teaser/assets/transparent-logo-white.png"
           width="60px"
         ></mj-image>
       </mj-column>
@@ -263,7 +263,7 @@
           padding-right="0px"
           padding-top="4px"
           padding="0px"
-          src="./assets/transparent-logo-white.png"
+          src="https://raw.githubusercontent.com/loganpowell/as-email/main/halls_teaser/assets/transparent-logo-white.png"
           width="28px"
         ></mj-image>
       </mj-column>
