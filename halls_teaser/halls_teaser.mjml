@@ -1,0 +1,324 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all
+        font-family="'Poppins', 'Helvetica', 'Arial', sans-serif"
+      ></mj-all>
+      <mj-text color="#373334"></mj-text>
+    </mj-attributes>
+    <mj-font
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,900&display=swap"
+      name="Poppins"
+    ></mj-font>
+  </mj-head>
+  <mj-body background-color="#F6F6EE">
+    <mj-section
+      background-color="#373334"
+      padding-bottom="0px"
+      padding-left="48px"
+      padding-right="48px"
+      padding-top="0px"
+      padding="48px"
+    >
+      <mj-column padding="0">
+        <mj-image
+          align="right"
+          padding="0px"
+          src="./assets/transparent-logo-white.png"
+          width="60px"
+        ></mj-image>
+      </mj-column>
+    </mj-section>
+    <!--<mj-section
+      background-color="#FC60A8"
+      padding-bottom="48px"
+      padding-left="48px"
+      padding-right="48px"
+      padding-top="24px"
+      padding="48px"
+    >
+      <mj-column padding="0">
+        <mj-text
+          color="rgba(255,255,255,0.5)"
+          font-size="14px"
+          line-height="1.6"
+          padding="0px"
+        >
+          GETTING STARTED
+        </mj-text>
+        <mj-spacer height="12px"></mj-spacer>
+        <mj-text
+          color="#ffffff"
+          font-size="38px"
+          line-height="1.375"
+          padding="0px"
+        >
+          <strong>Let's get you <br />up and running smoothly</strong>
+        </mj-text>
+      </mj-column>
+      <mj-column padding="0">
+        <mj-image
+          fluid-on-mobile="true"
+          padding="0px"
+          src="https://cdn.getvero.com/dd-editor/templates/app-onboarding/hero.png"
+        ></mj-image>
+      </mj-column>
+    </mj-section>-->
+    <mj-section
+      background-color="#FC60A8"
+      padding-bottom="24px"
+      padding-left="48px"
+      padding-right="48px"
+      padding-top="48px"
+      padding="48px"
+    >
+      <mj-column padding="0">
+        <mj-text
+          font-size="20px"
+          line-height="1.5"
+          padding="0px 0px 15px 0px"
+          color="white"
+        >
+          {{ User.UserAttributes.first_name }}, Is your home around {{ multiply
+          (round (multiply User.UserAttributes.H_C_Sqft 0.01)) 100 }} square
+          feet, and does it feel cramped? Are you still feeling a little cabin
+          fever after the COVID lockdowns? Maybe you're sharing {{
+          User.UserAttributes.Baths }} {{ gt User.UserAttributes.Baths 1
+          yes="bathrooms" no="bathroom" }} between too many people.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      padding-bottom="24px"
+      padding-left="48px"
+      padding-right="48px"
+      padding-top="48px"
+      padding="48px"
+    >
+      <mj-column padding="0">
+        <mj-text font-size="20px" line-height="1.5" padding="0px">
+          The Halls were feeling cramped. They are a family of 6 (2 parents, 3
+          children, and a dog) living in Homewood. After doubling the size of
+          their home, they now have "room to breath." But, before the addition,
+          they felt they were "bumping into each other like pool balls."
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      padding-bottom="24px"
+      padding-left="48px"
+      padding-right="48px"
+      padding-top="24px"
+      padding="48px"
+    >
+      <mj-column padding="0">
+        <mj-text font-size="24px" line-height="1.5" padding="0px">
+          <strong>Before</strong>
+        </mj-text>
+        <mj-spacer height="4px"></mj-spacer>
+        <mj-text font-size="16px" line-height="1.5" padding="10px 20px 0 0">
+          The Halls know they need more space but don't want to move. They love
+          Homewood, their schools, and neighbors, but are outpriced for buying a
+          much larger home in the area. The family also loves their yard and
+          wants to keep it. What do they do?
+        </mj-text>
+        <mj-spacer height="24px"></mj-spacer>
+        <!--<mj-text
+          color="#FC60A8"
+          font-size="20px"
+          line-height="1.5"
+          padding="0px"
+        >
+          <strong>Learn more</strong>
+        </mj-text>-->
+      </mj-column>
+      <mj-column padding="0">
+        <mj-image
+          align="right"
+          padding="0px"
+          src="./assets/before_scaled.jpg"
+          width="260px"
+        ></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      padding-bottom="48px"
+      padding-left="48px"
+      padding-right="48px"
+      padding-top="24px"
+      padding="48px"
+    >
+      <mj-column padding="0">
+        <mj-image
+          align="left"
+          padding="0px"
+          src="./assets/after_scaled.jpg"
+          width="260px"
+        ></mj-image>
+      </mj-column>
+      <mj-column padding="0">
+        <mj-text
+          color="#000000"
+          font-size="24px"
+          line-height="1.5"
+          padding="0 0 0 20px"
+        >
+          <strong>After</strong>
+        </mj-text>
+        <mj-spacer height="4px"></mj-spacer>
+        <mj-text font-size="20px" line-height="1.5" padding="10px 20px 0 20px">
+          They found a way to hack the system. They built a second story on top
+          of their home while they lived, uninterrupted, underneath.
+        </mj-text>
+        <mj-spacer height="24px"></mj-spacer>
+      </mj-column>
+    </mj-section>
+    <!--<mj-section
+      background-color="#ffffff"
+      padding-bottom="24px"
+      padding-left="48px"
+      padding-right="48px"
+      padding-top="24px"
+      padding="48px"
+    >
+      <mj-column padding="0">
+        <mj-text
+          color="#000000"
+          font-size="24px"
+          line-height="1.5"
+          padding="0px"
+        >
+          <strong>Cupidatat non proident, sunt in</strong>
+        </mj-text>
+        <mj-spacer height="4px"></mj-spacer>
+        <mj-text font-size="20px" line-height="1.5" padding="0px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor.
+        </mj-text>
+        <mj-spacer height="24px"></mj-spacer>
+        <mj-text
+          color="#FC60A8"
+          font-size="20px"
+          line-height="1.5"
+          padding="0px"
+        >
+          <strong>Learn more</strong>
+        </mj-text>
+      </mj-column>
+      <mj-column padding="0">
+        <mj-image
+          align="center"
+          padding="0px"
+          src="https://cdn.getvero.com/dd-editor/templates/app-onboarding/3.png"
+          width="200px"
+        ></mj-image>
+      </mj-column>
+    </mj-section>-->
+    <mj-section background-color="#373334" padding="48px">
+      <mj-column padding="0">
+        <mj-text
+          font-size="16px"
+          line-height="1.5"
+          padding="0px"
+          color="white"
+          align="center"
+        >
+          Watch the interview and find out how they did it:
+        </mj-text>
+        <mj-spacer height="24px"></mj-spacer>
+        <mj-button
+          background-color="white"
+          border-radius="32px"
+          font-size="20px"
+          line-height="1.5"
+          padding="0px"
+          width="100%"
+        >
+          <strong
+            ><a href="https://anotherstory.com">AnotherStory.com</a></strong
+          >
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#373334"
+      border-bottom="1px solid #5B5677"
+      border-left="none"
+      border-right="none"
+      border-top="none"
+      padding-bottom="20px"
+      padding-left="48px"
+      padding-right="48px"
+      padding-top="20px"
+      padding="48px"
+    >
+      <mj-column padding="0">
+        <mj-image
+          align="left"
+          padding-bottom="4px"
+          padding-left="0px"
+          padding-right="0px"
+          padding-top="4px"
+          padding="0px"
+          src="./assets/transparent-logo-white.png"
+          width="28px"
+        ></mj-image>
+      </mj-column>
+      <mj-column padding="0">
+        <mj-social
+          align="right"
+          font-size="15px"
+          icon-padding="3px"
+          icon-size="36px"
+          inner-padding="4px"
+          mode="horizontal"
+          padding="0px"
+        >
+          <mj-social-element
+            src="https://cdn.getvero.com/dd-editor/ui-assets/icons/social/facebook.png"
+            alt="https://www.facebook.com/anotherstorybham"
+            border-radius="10px"
+            href="https://www.facebook.com/anotherstorybham"
+            name="facebook-noshare"
+            title="https://www.facebook.com/anotherstorybham"
+          ></mj-social-element>
+          <mj-social-element
+            src="https://cdn.getvero.com/dd-editor/ui-assets/icons/social/instagram.png"
+            alt="https://www.instagram.com/anotherstorybham"
+            border-radius="10px"
+            href="https://www.instagram.com/anotherstorybham"
+            name="twitter-noshare"
+            title="https://www.instagram.com/anotherstorybham"
+          ></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      padding-bottom="64px"
+      padding-left="48px"
+      padding-right="48px"
+      padding-top="64px"
+      padding="48px"
+    >
+      <mj-column padding="0">
+        <mj-text
+          color="#fff"
+          font-size="14px"
+          line-height="1.5"
+          padding="0px"
+          align="center"
+        >
+          <a
+            ses:tags="unsubscribeLinkTag:optout"
+            href="https://www.example.com/preferences"
+            color="#fff"
+            >opt out from future emails</a
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
