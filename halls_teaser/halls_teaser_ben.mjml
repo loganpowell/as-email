@@ -5,7 +5,7 @@
             <mj-text color="#373334"></mj-text>
         </mj-attributes>
         <mj-font
-            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,900&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900&display=swap"
             name="Poppins"
         ></mj-font>
     </mj-head>
@@ -67,8 +67,9 @@
                     Imagine a family in a {{ round (multiply (round (multiply
                     User.UserAttributes.H_C_Sqft.[0] 0.01)) 100) }} ft² house with {{
                     User.UserAttributes.Baths.[0] }} {{ gt User.UserAttributes.Baths.[0] 1
-                    yes="bathrooms" no="bathroom" }}. When they arrived, they couldn't predict that
-                    their family would grow so much that they would eventually overwhelm the space.
+                    yes="bathrooms" no="bathroom" }}. When they arrive as husband and wife, they
+                    couldn't predict that thier family would grow to three children and big dog,
+                    which would eventually overwhelm the space.
                 </mj-text>
             </mj-column>
         </mj-section>
@@ -78,20 +79,20 @@
                     <strong>Before</strong>
                 </mj-text>
                 <mj-spacer height="4px"></mj-spacer>
-                <mj-text font-size="17px" line-height="1.5" padding="0px">
-                    <ul>
-                        <li>
-                            {{ round (multiply (round (multiply User.UserAttributes.H_C_Sqft.[0]
-                            0.01)) 100) }} ft²
-                        </li>
-                        <li>{{ User.UserAttributes.Bed_Rooms.[0] }} bedrooms</li>
-                        <li>
-                            {{ User.UserAttributes.Baths.[0] }} {{ gt User.UserAttributes.Baths.[0]
-                            1 yes="bathrooms" no="bathroom" }}
-                        </li>
-                    </ul>
+                <mj-text font-size="17px" line-height="1.5" padding="10px 20px 0 0">
+                    They know they need more space but don't want to move. They love their yard,
+                    Homewood, their schools, and neighbors, but are outpriced for buying a much
+                    larger home in the area. What do they do?
                 </mj-text>
                 <mj-spacer height="20px"></mj-spacer>
+                <!--<mj-text
+          color="#FC60A8"
+          font-size="20px"
+          line-height="1.5"
+          padding="0px"
+        >
+          <strong>Learn more</strong>
+        </mj-text>-->
             </mj-column>
             <mj-column padding="0">
                 <mj-image
@@ -117,46 +118,12 @@
                 </mj-text>
                 <mj-spacer height="4px"></mj-spacer>
                 <mj-text font-size="17px" line-height="1.5" padding="0px">
-                    <ul>
-                        <li>
-                            {{ round (multiply (round (multiply User.UserAttributes.H_C_Sqft.[0]
-                            0.018)) 100) }} ft²
-                        </li>
-                        <li>
-                            {{ round (multiply (multiply User.UserAttributes.Bed_Rooms.[0] 0.18) 10)
-                            }} bedrooms
-                        </li>
-                        <li>
-                            {{ round (multiply (multiply User.UserAttributes.Baths.[0] 0.18) 10) }}
-                            {{ gt User.UserAttributes.Baths.[0] 1 yes="bathrooms" no="bathroom" }}
-                        </li>
-                    </ul>
+                    They found AnotherStory and added a second story to their home while they lived,
+                    <i>uninterrupted</i>, below. They now have "room to breath" in their {{ round
+                    (multiply (round (multiply User.UserAttributes.H_C_Sqft.[0] 0.018)) 100) }} ft²
+                    house.
                 </mj-text>
                 <mj-spacer height="20px"></mj-spacer>
-            </mj-column>
-        </mj-section>
-        <mj-section
-            background-color="#ffffff"
-            padding-bottom="60px"
-            padding-left="40px"
-            padding-right="40px"
-            padding-top="0px"
-        >
-            <mj-column padding="0">
-                <mj-text font-size="20px" line-height="1.5" padding="0px">
-                    <strong>Now Imagine</strong>
-                </mj-text>
-                <mj-text font-size="17px" line-height="1.5" padding="0px">
-                    <ul>
-                        <li>
-                            They have a more valuable home at a lower tax base than buying a new
-                            home in the same area
-                        </li>
-
-                        <li>There was no disruption to their lifestyle during construction</li>
-                        <li><em>The family never had to move out of their home</em></li>
-                    </ul>
-                </mj-text>
             </mj-column>
         </mj-section>
         <mj-section background-color="#373334" padding="40px">
@@ -168,7 +135,7 @@
                     color="white"
                     align="center"
                 >
-                    Watch the interview and find out how they did it:
+                    Watch the interview and find out how it's possible:
                 </mj-text>
                 <mj-spacer height="20px"></mj-spacer>
                 <mj-button
@@ -186,12 +153,10 @@
                         padding="0px"
                         align="center"
                     >
-                        <strong
-                            ><a
-                                href="https://anotherstory.com"
-                                style="color: white; text-decoration: none"
-                                >AnotherStory.com</a
-                            ></strong
+                        <a
+                            href="https://anotherstory.com"
+                            style="color: white; text-decoration: none"
+                            >AnotherStory.com</a
                         >
                     </mj-text>
                 </mj-button>
@@ -263,6 +228,7 @@
                 >
                     <a
                         ses:tags="unsubscribeLinkTag:optout"
+                        style="color: #373334; text-decoration: none"
                         href="https://qt6laryq5vuwhw4giwcjxezowu0skrbj.lambda-url.us-east-1.on.aws/{{ User.UserId }}"
                         >opt out from future emails</a
                     >
