@@ -1,0 +1,26 @@
+{
+  "name": "email",
+  "version": "1.0.0",
+  "description": "-   Grab grid cell for target area (copy grid coords to clipboard) from anotherstory-analytics/client -   Run the `getData` function in anotherstory-analytics/server for the cell (see README.md there) -   Sync the `pinpoint` (.csv) directory with s3 `aws s3 sync ...` -   Import endpoints to Pinpoint: `aws pinpoint create-import-job ...` -   Create segment in Pinpoint console -   Create a campaign based on the segment (using a template) -   Launch the campaign -   check campaign metrics on Pinpoint dashboard `Analytics > Campaigns > <campaign>` -   check unsubscribes in Cloudwatch logs `unsubscriber-...`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loganpowell/as-email.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loganpowell/as-email/issues"
+  },
+  "homepage": "https://github.com/loganpowell/as-email#readme",
+  "dependencies": {
+    "ndjson-parse": "^1.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0"
+  }
+}
