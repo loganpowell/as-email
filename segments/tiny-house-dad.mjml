@@ -26,8 +26,8 @@
                 ></mj-image>
                 <mj-spacer height="12px"></mj-spacer>
                 <mj-text color="#fff" font-size="48px" padding="0 0 24px">
-                    <!--<strong>{{ User.UserAttributes.first_name.[0] }},</strong>-->
-                    <strong>Logan,</strong>
+                    <strong>{{ User.UserAttributes.first_name.[0] }},</strong>
+                    <!--<strong>Logan,</strong>-->
                 </mj-text>
             </mj-column>
         </mj-section>
@@ -40,10 +40,14 @@
             padding="48px"
         >
             <mj-column padding="0">
-                <mj-text font-size="20px" line-height="1.5" padding="0px">
+                <mj-text font-size="18px" line-height="1.5" padding="0px">
                     You love your home, but are you tight on space? Perhaps before these interest
-                    rates started skyrocketing, you considered buying a bigger one in the same
-                    neighborhood.
+                    rates started skyrocketing, you considered buying a bigger one in Homewood.
+                </mj-text>
+
+                <mj-spacer height="20px"></mj-spacer>
+                <mj-text font-size="18px" line-height="1.5" padding="0px">
+                    Please allow me to tell you a short story about another family in Homewood...
                 </mj-text>
 
                 <mj-spacer height="40px"></mj-spacer>
@@ -56,6 +60,11 @@
                 <mj-text font-size="30px" line-height="1.5" padding="0px">
                     <strong>Before</strong><br /><strong></strong>
                 </mj-text>
+                <mj-spacer height="20px"></mj-spacer>
+                <mj-text font-size="18px" line-height="1.5" padding="0px">
+                    This was the home of a family of 5. In their own words, they were "bouncing into
+                    each other like pool balls."
+                </mj-text>
                 <mj-spacer height="46px"></mj-spacer>
                 <mj-image
                     fluid-on-mobile="true"
@@ -65,6 +74,10 @@
                 ></mj-image>
                 <mj-text font-size="30px" line-height="1.5" padding="0px">
                     <strong>After</strong><br /><strong></strong>
+                </mj-text>
+                <mj-spacer height="20px"></mj-spacer>
+                <mj-text font-size="18px" line-height="1.5" padding="0px">
+                    After they added another story to their home, they finally "had room to breath."
                 </mj-text>
             </mj-column>
         </mj-section>
@@ -77,40 +90,43 @@
             padding="48px"
         >
             <mj-column padding="0">
-                <mj-text font-size="20px" line-height="1.5" padding="0px">
+                <mj-text font-size="18px" line-height="1.5" padding="0px">
                     What if there were a way to get that breathing room you want. What if it were
-                    also convenient and attainable. What if I told you it was possible without your
-                    family needing to move?
+                    also convenient and attainable. What if I told you it was possible to add a
+                    second-story addition <strong>without your family needing to move</strong>?
                 </mj-text>
-                <!--<mj-spacer height="40px"></mj-spacer>-->
-                <!--<mj-button
-                    align="left"
-                    border-radius="0px"
-                    font-size="20px"
-                    line-height="1.5"
-                    padding="0px"
-                >
-                    <strong>After</strong>
-                </mj-button>-->
+                <mj-spacer height="20px"></mj-spacer>
+                <mj-text font-size="18px" line-height="1.5" padding="0px">
+                    We've built 5 such additions in Birmingham and have a track record of great
+                    customer service. Yes, happy customers who lived in their home while we added
+                    another story to it. We can do the same for you and can also help you navigate
+                    the landscape of financing options available for these kinds of projects.
+                </mj-text>
                 <mj-spacer height="40px"></mj-spacer>
 
                 <mj-carousel icon-width="30px" tb-selected-border-color="white">
                     <mj-carousel-image
-                        src="https://raw.githubusercontent.com/loganpowell/as-email/main/halls_teaser/assets/before_scaled%20(Custom).jpg"
+                        src="https://raw.githubusercontent.com/loganpowell/as-email/main/halls_teaser/assets/befor2.png"
                         href="https://anotherstory.com"
                         alt="Before"
                         title="Before"
                     />
                     <mj-carousel-image
-                        src="https://raw.githubusercontent.com/loganpowell/as-email/main/halls_teaser/assets/after_scaled%20(Custom).jpg"
+                        src="https://raw.githubusercontent.com/loganpowell/as-email/main/halls_teaser/assets/after2.png"
                         href="https://anotherstory.com"
                         alt="After"
                         title="After"
                     />
                 </mj-carousel>
+
                 <mj-spacer height="40px"></mj-spacer>
 
-                <mj-button width="100%">Find Out More</mj-button>
+                <mj-button width="100%" font-size="18px">Find Out More</mj-button>
+                <mj-spacer height="20px"></mj-spacer>
+                <mj-spacer height="20px"></mj-spacer>
+                <mj-text font-size="18px" line-height="1.5" padding="0px" align="center">
+                    Let's talk about making your home a dream to live in.
+                </mj-text>
             </mj-column>
         </mj-section>
         <mj-section
@@ -130,7 +146,7 @@
                 >
                     Images represent actual projects done by our company<br /><br /><a
                         ses:tags="unsubscribeLinkTag:optout"
-                        href="https://qt6laryq5vuwhw4giwcjxezowu0skrbj.lambda-url.us-east-1.on.aws/{{ User.UserId }}"
+                        href="https://3dd5dkv4bjindyllgkdyssa3i40xdmif.lambda-url.us-east-1.on.aws/{{ User.UserId }}"
                         style="color: grey"
                         >opt out of future emails</a
                     >
