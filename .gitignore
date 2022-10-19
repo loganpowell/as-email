@@ -1,3 +1,4 @@
 unsubscriber/
-**/*/25PINPOINT-FIREHOSE*
+.env
+**/*/*PINPOINT-FIREHOSE*
 node_modules/

@@ -3,5 +3,5 @@ D:\projects\startup\anotherstory\marketing\email\halls_teaser\events\bundle.json
 
 
 # show reason for any bounces
-jq .[] | select( .event_type | contains("_email")) | "\(.event_type): \(.facets.email_channel.mail_event.mail.destination[0]) \(.facets.email_channel.mail_event.bounce.bounced_recipients[0].diagnostic_code)" 
+jq .[] | select( .event_type | contains("_email")) | "\(.event_type): \(.attributes.feedback) email: \(.facets.email_channel.mail_event.mail.destination[0]) client: \(.client.client_id)" 
 D:\projects\startup\anotherstory\marketing\email\halls_teaser\events\bundle.json

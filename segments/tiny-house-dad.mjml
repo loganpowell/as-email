@@ -1,0 +1,141 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-all font-family="'Poppins', 'Helvetica', 'Arial', sans-serif"></mj-all>
+            <mj-button background-color="#373334"></mj-button>
+        </mj-attributes>
+        <mj-font
+            href="https://fonts.googleapis.com/css?family=Poppins:normal,italic,bold&display=swap"
+            name="Poppins"
+        ></mj-font>
+    </mj-head>
+    <mj-body background-color="#F6F6EE">
+        <mj-section padding="0px">
+            <mj-column padding="0">
+                <mj-spacer height="32px"></mj-spacer>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#373334" padding="0 48px ">
+            <mj-column padding="0">
+                <mj-image
+                    align="right"
+                    padding="0px"
+                    src="https://raw.githubusercontent.com/loganpowell/as-email/main/halls_teaser/assets/transparent-logo-white.png"
+                    width="50px"
+                    href="https://anotherstory.com"
+                ></mj-image>
+                <mj-spacer height="12px"></mj-spacer>
+                <mj-text color="#fff" font-size="48px" padding="0 0 24px">
+                    <!--<strong>{{ User.UserAttributes.first_name.[0] }},</strong>-->
+                    <strong>Logan,</strong>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section
+            background-color="#fff"
+            padding-bottom="23px"
+            padding-left="48px"
+            padding-right="48px"
+            padding-top="30px"
+            padding="48px"
+        >
+            <mj-column padding="0">
+                <mj-text font-size="20px" line-height="1.5" padding="0px">
+                    You love your home, but are you tight on space? Perhaps before these interest
+                    rates started skyrocketing, you considered buying a bigger one in the same
+                    neighborhood.
+                </mj-text>
+
+                <mj-spacer height="40px"></mj-spacer>
+                <mj-image
+                    fluid-on-mobile="true"
+                    padding="0px"
+                    src="https://raw.githubusercontent.com/loganpowell/as-email/main/halls_teaser/assets/before_scaled%20(Custom).jpg"
+                    href="https://anotherstory.com"
+                ></mj-image>
+                <mj-text font-size="30px" line-height="1.5" padding="0px">
+                    <strong>Before</strong><br /><strong></strong>
+                </mj-text>
+                <mj-spacer height="46px"></mj-spacer>
+                <mj-image
+                    fluid-on-mobile="true"
+                    padding="0px"
+                    src="https://raw.githubusercontent.com/loganpowell/as-email/main/halls_teaser/assets/after_scaled%20(Custom).jpg"
+                    href="https://anotherstory.com"
+                ></mj-image>
+                <mj-text font-size="30px" line-height="1.5" padding="0px">
+                    <strong>After</strong><br /><strong></strong>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section
+            background-color="#fff"
+            padding-bottom="56px"
+            padding-left="48px"
+            padding-right="48px"
+            padding-top="0px"
+            padding="48px"
+        >
+            <mj-column padding="0">
+                <mj-text font-size="20px" line-height="1.5" padding="0px">
+                    What if there were a way to get that breathing room you want. What if it were
+                    also convenient and attainable. What if I told you it was possible without your
+                    family needing to move?
+                </mj-text>
+                <!--<mj-spacer height="40px"></mj-spacer>-->
+                <!--<mj-button
+                    align="left"
+                    border-radius="0px"
+                    font-size="20px"
+                    line-height="1.5"
+                    padding="0px"
+                >
+                    <strong>After</strong>
+                </mj-button>-->
+                <mj-spacer height="40px"></mj-spacer>
+
+                <mj-carousel icon-width="30px" tb-selected-border-color="white">
+                    <mj-carousel-image
+                        src="https://raw.githubusercontent.com/loganpowell/as-email/main/halls_teaser/assets/before_scaled%20(Custom).jpg"
+                        href="https://anotherstory.com"
+                        alt="Before"
+                        title="Before"
+                    />
+                    <mj-carousel-image
+                        src="https://raw.githubusercontent.com/loganpowell/as-email/main/halls_teaser/assets/after_scaled%20(Custom).jpg"
+                        href="https://anotherstory.com"
+                        alt="After"
+                        title="After"
+                    />
+                </mj-carousel>
+                <mj-spacer height="40px"></mj-spacer>
+
+                <mj-button width="100%">Find Out More</mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section
+            padding-bottom="32px"
+            padding-left="48px"
+            padding-right="48px"
+            padding-top="32px"
+            padding="48px"
+        >
+            <mj-column padding="0">
+                <mj-text
+                    align="center"
+                    color="#5C5C5C"
+                    font-size="14px"
+                    line-height="1.5"
+                    padding="0px"
+                >
+                    Images represent actual projects done by our company<br /><br /><a
+                        ses:tags="unsubscribeLinkTag:optout"
+                        href="https://qt6laryq5vuwhw4giwcjxezowu0skrbj.lambda-url.us-east-1.on.aws/{{ User.UserId }}"
+                        style="color: grey"
+                        >opt out of future emails</a
+                    >
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
